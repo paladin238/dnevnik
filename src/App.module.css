@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+#root {
+    min-width: 1280px;
+    margin: 0 auto;
+}
+
+.layout {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #559d55be;
+    color: #fff;
+}
+
+.layout2 {
+    background-color: #ffffffdf;
+    max-width: 300px;
+    padding: 20px;
+    color: #000;
+    box-shadow: 0px 0px 2px 4px rgba(0, 0, 0, 0.066);
+}
+
+.layout2 button {
+    position: absolute;
+    bottom: 0;
+    transition: background-color 0.3s ease;
+    background-color: #d0d0d0fe;
+    border-color: #d0d0d0fe;
+    border-radius: 6px;
+    font-family: "Montserrat", serif;
+    height: 30px;
+    width: 100px;
+    color: #000000;
+}
+
+.layout button {
+    position: absolute;
+    bottom: 0;
+    transition: background-color 0.3s ease;
+    background-color: #7ddd7dfe;
+    border-color: #7ddd7dfe;
+    border-radius: 6px;
+    font-family: "Montserrat", serif;
+    height: 30px;
+    width: 200px;
+    color: #fff;
+}
+
+.layout button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.layout2 button:hover {
+    background-color: #559d55be;
+    color: #fff;
+}
+
+.layout3 {
+    position: absolute;
+    max-width: 9990px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 830px;
+    text-align: left;
+    font-family: "Roboto", serif;
+}
+
+.layout3 h1 {
+    font-family: "Montserrat", serif;
+}
+
+.layout4 {
+    background-color: red;
+}
